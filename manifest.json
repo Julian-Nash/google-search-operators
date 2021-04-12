@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Google Search Operators",
+  "description": "Handy google search operators",
+  "version": "1.0",
+  "browser_action": {
+   "default_icon": "images/get_started16.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

@@ -1,0 +1,47 @@
+$primary: #81c995;
+
+body {
+  font-family: 'Inter', sans-serif;
+  padding: 16px 16px;
+  background-color: #14151a;
+  color: #9fa4a9;
+  min-width: 500px;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: #fafafa;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+.example {
+  padding: 4px 10px;
+  border-radius: 1rem;
+  margin-right: 4px;
+  background-color: rgba($primary, 0.05);
+  color: $primary;
+  font-family: 'Roboto Mono', monospace;;
+}
+.card {
+  background-color: #1b1d21;
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 1rem;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+.e p {
+  margin-bottom: 16px;
+  color: #4d5156;
+}
+.e h3 {
+    font-weight: 600;
+}
+.text-muted {
+  color: #4d5156;
+}
+.fw-medium {
+  font-weight: 600;
+}
